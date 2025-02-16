@@ -1,4 +1,7 @@
-function isSameType(value1, value2) {
+function isSameType(1,3){
+return true;
+}
+
   //your js code here
 }
 
