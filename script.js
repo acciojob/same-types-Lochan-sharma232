@@ -1,9 +1,11 @@
 function isSameType(1,3){
 return true;
 }
-function isSameType(value1,value2)
-if(Number.isNAN(value1)&& Number.isNAN(value2))
+function isSameType(value1,value2){
+if(Number.string("hey")&& Number.string("hello"))
 return true;
+}else{
+	return false;
 }
 return typeof value1 === typeof value2;
 }
