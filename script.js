@@ -1,4 +1,4 @@
-function isSameType(value1,value2){
+function isSameType(value1,vaue2){
 if(!Number.isInteger(value1)){
 	value1 = Number(value1);
 }
