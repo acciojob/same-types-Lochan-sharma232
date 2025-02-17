@@ -2,10 +2,10 @@ function isSameType(1,3){
 return true;
 }
 function isSameType(value1,value2){
-if(Number.string("hey")&& Number.string("hello"))
+if(Number.string("hey")&& Number.string("hello")){
 return true;
 }else{
-	return false;
+return false;
 }
 return typeof value1 === typeof value2;
 }
