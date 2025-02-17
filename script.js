@@ -14,7 +14,7 @@ return false;
 }
 	
 if(typeof(value1)===typeof(value2)){
-	return false;
+	return true;
 }else{
 	return false;
 }
