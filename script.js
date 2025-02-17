@@ -1,8 +1,8 @@
 function isSameType(value1,value2){
-if(!Number.isString(value1)){
+if(!'string'(value1)){
 	value1 = Number(value1);
 }
-if(!Number.isString(value2)){
+if(!'string'(value2)){
 	value2 =Number(value2);
 }
 
